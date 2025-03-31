@@ -1,0 +1,55 @@
+body{
+  color:gold;
+  background-image:url("file-SELS8zkqo47AhwYo5X2teA.webp");
+}
+button{
+  border:5px double white;
+  background-color:gold;
+  border-radius:20px;
+}
+input{
+  border:5px solid grey;
+  border-radius:20px;
+  background-color:white;
+  opacity:0.7;
+}
+section{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+h5{
+  padding-top:400px;
+  text-align: center;
+  color:white;
+}
+@media (min-width:370px){
+  body{
+  background-image:url("file-SELS8zkqo47AhwYo5X2teA.webp");
+  background-repeat:no-repeat;
+  }
+  button{
+  border:5px double white;
+  background-color:gold;
+  border-radius:20px;
+}
+input{
+  border:5px solid grey;
+  border-radius:20px;
+  background-color:white;
+  opacity:0.7;
+}
+  h5{
+  padding-top:700px;
+  text-align: center;
+  color:white;
+}
+  h1,h6,p{
+    text-align: center;
+  }
+  section{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+}
