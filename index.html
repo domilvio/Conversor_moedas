@@ -13,9 +13,15 @@
     CONVERSOR DE MOEDAS!
   </h1>
   <h6>Converta seus kwanzas em euros</h6>
-  <section>
+  <section >
   <input placeholder="digite os seus kwanzas" type="number">
-  <button type="button" onclick="converterMoeda()">converter</button>
+  <select id="moeda" onchange="converterMoeda()">
+    <option>converter</option>
+    <option value="euro">EURO</option>
+    <option value="dolar">DÓLAR</option>
+    <option value="libra">LIBRA</option>
+    <option value="metical">METICAL</option>
+  </select>
 </section>
   <p></p>
   <h5>from:Domilvio Júlio Gonçalves Barroso</h5>
