@@ -19,9 +19,16 @@ section{
     align-items: center;
 }
 h5{
-  padding-top:400px;
+  padding-top:250px;
   text-align: center;
   color:white;
+}
+img{
+  display: block;
+  margin: auto;
+  border-radius:100px;
+  margin-top:100px;
+  animation:animar 2s infinite alternate;
 }
 @media (min-width:370px){
   body{
@@ -40,7 +47,7 @@ input{
   border-radius:20px;
 }
   h5{
-  padding-top:700px;
+  padding-top:600px;
   text-align: center;
   color:white;
 }
@@ -52,4 +59,20 @@ input{
   justify-content: center;
     align-items: center;
 }
+}
+@keyframes animar{
+  0%{
+  display: block;
+  margin: auto;
+  border-radius:100px;
+  margin-top:100px;
+    transform:translatey(60px);
+}
+  100%{
+  display: block;
+  margin: auto;
+  border-radius:100px;
+  margin-top:100px;
+      transform:translatey(10px);
+  }
 }
